@@ -15,8 +15,11 @@ A Vite + React + TypeScript single-page site for the Zayathon 2026 hackathon, st
 - Tailwind CSS
 - Framer Motion
 - Supabase
+- shadcn-ui
 
 ## Getting Started
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 1. Install dependencies:
    ```bash
@@ -61,4 +64,4 @@ npm test
 
 ## Deployment
 
-Build the site (`npm run build`) and deploy the `dist/` output to any static host. Ensure Supabase environment variables are set in your deployment platform.
+Build the site (`npm run build`) and deploy the `dist/` output to any static host (Vercel, Netlify, etc.). Ensure Supabase environment variables are set in your deployment platform.
